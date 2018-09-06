@@ -1,0 +1,614 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+
+    overflow-x: hidden;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.clearfix{
+    overflow: hidden;
+    zoom: 1;
+}
+
+-----------------
+
+.navbar .left{
+    float: left;
+    display: inline-block;
+}
+.navbar .left li{
+    float: left;
+    margin: 0 5px;
+    font-size: 14px;
+}
+.navbar .left li:first-child{
+    margin-left: 0;
+}
+.navbar .right{
+    float: right;
+}
+.navbar .right li{
+    float: left;
+    margin: 0 5px;
+    font-size: 14px;
+}
+.navbar .right li:last-child img{
+    width: 20px;
+    height: auto;
+    vertical-align: middle;
+    cursor: pointer;
+
+}
+.navbar .right li:last-child span{
+    font-size: 14px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.navbar a{
+    color: #ccc;
+}
+.navbar a:hover{
+    color: #545b62;
+}
+.navbar{
+    position: relative;
+}
+.container .text{
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #ccc;
+    position: absolute;
+    right: 0;
+    z-index: 77;
+    display: none;
+
+}
+.container .text p{
+    margin: 0;
+    line-height: 200px;
+    font-size: 14px;
+}
+.banner{
+    margin-top: 10px;
+}
+.banner .logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+.banner .lf{
+    display: inline-block;
+    vertical-align: middle;
+}
+.banner .lf span{
+    margin: 0 5px;
+    cursor: pointer;
+}
+.banner .lf span:hover{
+    color: #ff6700;
+}
+.banner .rt{
+    width: 300px;
+    height: 60px;
+    float: right;
+    border: 1px solid #ccc;
+}
+.banner .rt:hover{
+    border: 1px solid #ff6700;
+}
+.banner .rt .rt-a{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 14px;
+    float: right;
+}
+.banner .rt .rt-a:hover{
+    transition: .5s;
+    background-color: #ff6700;
+}
+.banner .rt .rt-a span{
+    line-height: 60px;
+}
+
+.banner .rt .rt-b{
+    width: 125px;
+    height: 60px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 12px;
+    float: right;
+}
+.banner .rt .rt-b span{
+    line-height: 60px;
+    padding: 0 2px;
+    margin: 0 5px;
+    color: #4e555b;
+    background-color: #ccc;
+}
+.banner .rt .rt-b span:hover{
+    color: #fff;
+    background-color: #ff6700;
+}
+.banner .rt input{
+    width: 113px;
+    height: 57px;
+    border: none;
+}
+.product .container figure{
+    width: 13%;
+    height: 300px;
+    margin:10px calc(10% / 5) 10px 0;
+    text-align: center;
+    margin: 16px 0;
+    float: left;
+}
+.product .container .mg{
+    margin-top:100px;
+}
+
+.product .container figure img{
+    width: 120px;
+    height: auto;
+}
+.product .container figure p{
+    border: 1px solid #ff6700;
+    color: #ff6700;
+    font-size: 14px;
+    margin-top: 0;
+   display: inline-block;
+}
+.product .container figure img{
+    margin-left: 10px;
+}
+.product .container figure span{
+    font-size: 14px;
+    cursor: pointer;
+}
+.product .container figcaption span{
+    color: #ff6700;
+    font-size: 14px;
+}
+.product .container figcaption{
+    margin-top: 5px;
+}
+
+.product{
+    margin-top: 10px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    position: absolute;
+    left: 15%;
+    top: 300px;
+    display: none;
+    z-index: 88;
+    background: white;
+
+}
+
+
+.project .container figure{
+    width: 15%;
+    height: 250px;
+    margin:10px calc(10% / 5) 10px 0;
+    text-align: center;
+    margin: 16px 0;
+    float: left;
+
+}
+.project .container figure img{
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+}
+
+.project .container figure p{
+    margin-top: 0;
+    color: #ff6700;
+    border: 1px solid #ff6700;
+    display: inline-block;
+    font-size: 14px;
+}
+.project .container .md{
+    color: white;
+    border: 0;
+}
+.project .container figcaption{
+    margin-top: 10px;
+}
+.project .container figcaption span:first-child{
+    font-size: 14px;
+    cursor: pointer;
+}
+.project .container figcaption span:last-child{
+    color: #ff6700;
+    font-size: 14px;
+
+}
+.project{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    position: absolute;
+    right: 15%;
+    top: 250px;
+    display: none;
+    z-index: 88;
+    background: white;
+}
+
+
+.produce .container figure{
+    width: 15%;
+    height: 300px;
+    margin:10px calc(10% / 5) 10px 0;
+    text-align: center;
+    margin: 16px 0;
+    float: left;
+}
+.produce .container figure img{
+    width: 150px;
+    height: auto;
+}
+.produce .container figure p{
+    color: #ff6700;
+    cursor: pointer;
+    font-size: 14px;
+   display: inline-block;
+    border: 1px solid #ff6700;
+}
+.produce .container figure figcaption span:first-child{
+    font-size: 12px;
+    cursor: pointer;
+}
+.produce .container figure figcaption span:last-child{
+    font-size: 14px;
+    color: #ff6700;
+}
+.produce{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    position: absolute;
+    right: 22%;
+    top: 250px;
+    display: none;
+    z-index: 88;
+    background: white;
+
+}
+
+.goods .container figure{
+    width: 15%;
+    height: 300px;
+    margin:10px calc(10% / 5) 10px 0;
+    text-align: center;
+    margin: 0 0 16px 0;
+    float: left;
+
+}
+.goods .container figure img{
+    width: 150px;
+    height: auto;
+}
+.goods .container figure p{
+    color: #ff6700;
+    display: inline-block;
+    border: 1px solid #ff6700;
+    margin-top: 0;
+    font-size: 12px;
+
+}
+.goods .container figure figcaption span:first-child{
+    font-size: 12px;
+    cursor: pointer;
+}
+.goods .container figure figcaption span:last-child{
+    color: #ff6700;
+    font-size: 12px;
+}
+.goods .container figure:nth-child(2) figcaption{
+   margin-top: 10px;
+}
+.goods .container figure:nth-child(4) p{
+    color: white;
+    border: 1px solid #ffffff;
+}
+.goods .container figure:nth-child(5) p{
+    color: white;
+    border: 1px solid #ffffff;
+}
+.goods .container figure:nth-child(6) p{
+    color: white;
+    border: 1px solid #ffffff;
+}
+.goods .container figure:nth-child(1) p{
+    color: white;
+    border: 1px solid #ffffff;
+}
+
+.goods{
+    border-top: 1px solid #cccccc;
+    position: absolute;
+    right: 20%;
+    display: none;
+    z-index: 88;
+    background: white;
+}
+
+
+.list .container .list-a{
+    width: 230px;
+    padding: 20px 0;
+    position: relative;
+    background: #333;
+    display: inline-block;
+}
+.list{
+    margin-top: 20px;
+}
+.list .container .list-a li{
+    padding: 10px 30px;
+    color: white;
+    cursor: pointer;
+}
+.list .container .list-a li:hover{
+    background: #ff6700;
+}
+.list .container .list-a span:nth-child(2n){
+    position: absolute;
+    right: 20px;
+    line-height: 21px;
+    font-size: 20px;
+    color: white;
+
+}
+.list .container .Carousel {
+    width: 1000px;
+    height: 450px;
+    text-align: center;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    z-index: 15;
+}
+.list .container .Carousel li img{
+    width: 970px;
+    height: 450px;
+}
+.list .container ol{
+    list-style: none;
+    float: right;
+    position: absolute;
+    top: 90%;
+    left: 85%;
+    z-index: 20;
+}
+.list .container ol li{
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin: 0 5px;
+    background: #ffaa00;
+}
+.list .container ol li .active{
+    background: #ffccaa;
+}
+.list .container .list-b{
+    width: 970px;
+    float: right;
+}
+.phone .container figure{
+    width: 140px;
+    height: auto;
+    float: left;
+    margin-right: 80px;
+}
+.phone .container figure img{
+    width: 50px;
+    height: auto;
+    cursor: pointer;
+}
+.phone .container figure figcaption{
+    font-size: 12px;
+    float: right;
+    font-size: 14px;
+    height: 54px;
+}
+.phone .container figure figcaption span{
+    line-height: 54px;
+}
+.phone .container figure:nth-child(4) {
+    margin-right: 0;
+}
+.phone{
+    border: 1px solid #ccc;
+    width:1000px;
+    position: absolute;
+    left: 26%;
+    top: 35%;
+    z-index: 35;
+    background: white;
+    display: none;
+}
+
+.tv .container figure{
+    width: 180px;
+    margin: auto 30px;
+    height: auto;
+    float: left;
+}
+.tv .container figure img{
+    width: 50px;
+    height: auto;
+    cursor: pointer;
+}
+.tv .container figure figcaption{
+    font-size: 12px;
+    float: right;
+    line-height: 54px;
+    cursor: pointer;
+}
+.tv .container figure figcaption:hover{
+    color: #ff6700;
+}
+.tv .container{
+    width: 1000px;
+    height: 450px;
+}
+.tv{
+    position: absolute;
+    right:10%;
+    top: 45%;
+    background: white;
+    z-index: 88;
+    display: none;
+}
+.computer .container figure{
+    width: 200px;
+    height: auto;
+    float: left;
+    margin-left: 0;
+    font-size: 14px;
+}
+.computer .container figure img{
+    width: 60px;
+    height: auto;
+}
+.computer .container figure figcaption{
+    float: right;
+    line-height: 64px;
+}
+.computer .container{
+    width: 1000px;
+    height: 450px;
+    position: absolute;
+    left: 25%;
+    top: 35%;
+    background: white;
+    z-index: 88;
+    display: none;
+}
+.family .container figure{
+    width: 300px;
+    height: auto;
+    float: left;
+    font-size: 12px;
+}
+.family .container figure img{
+    width: 50px;
+    height: auto;
+    vertical-align: middle;
+}
+.family .container figure span{
+    vertical-align: middle;
+    margin: 0 10px;
+    cursor: pointer;
+
+}
+.family .container figure span:hover{
+    color: #ff6700;
+}
+.family .container{
+    width: 1200px;
+    height: 450px;
+    position: absolute;
+    left: 25%;
+    top: 35%;
+    background: white;
+    z-index: 88;
+    display: none;
+}
+.go .container figure{
+    width: 200px;
+    height: auto;
+    float: left;
+    text-align: center;
+}
+.go .container figure img{
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.go .container figure span{
+    font-size: 14px;
+    vertical-align: middle;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.go .container figure span:hover{
+    color: #ff6700;
+}
+.go .container figure:nth-child(8){
+    width: 600px;
+    text-align: left;
+    margin-left: 80px;
+    height: auto;
+}
+.go .container{
+    width: 600px;
+    height: 550px;
+    position: absolute;
+    right: 35%;
+    top: 29%;
+    background: white;
+    z-index: 88;
+    display: none;
+}
+.ig .container figure{
+    width: 24%;
+    margin:10px 16px 10px 0;
+    float:left;
+    overflow:hidden;
+    cursor: pointer;
+}
+.ig .container figure:last-child{
+    margin-right: 0;
+}
+
+.ig .container figure img{
+    width: 288px;
+    height: auto;
+
+}
+.xmsg .container h3{
+    display: inline-block;
+}
+.xmsg .container .buy .buy-a{
+    width: 60px;
+    height: 30px;
+    border: 1px solid #ccc;
+}
+.xmsg .container .buy .buy-a span{
+    line-height: 30px;
+    color: #545b62;padding: 3px 6px;
+    border: 1px solid #ccc;
+}
